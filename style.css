@@ -1,0 +1,303 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menu ul li:hover {
+    color: red;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background: black;
+    color: white;
+}
+
+.logo {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.half-width {
+    width: 59%;
+    padding-left: 30px;
+}
+
+.half {
+    width: 40%;
+}
+
+.heading-title {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.htext {
+    font-size: 22px;
+    display: block;
+    margin: 30px 0px;
+}
+
+.hbtn {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.hbtn:hover {
+    background-color: blue;
+}
+
+.tool {
+    width: 270px;
+    height: 300px;
+    border: 1px solid red;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.tool img {
+    width: 70px;
+
+}
+
+.tool:hover {
+    margin-top: -20px;
+    transition: 0.8ms;
+}
+
+.tool-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 10%;
+}
+
+.take {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.morebtn {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 6px 20px;
+
+}
+
+.about {
+    margin: 50px 0px;
+    background-color: black;
+    color: #fff;
+    padding-bottom: 17px;
+}
+
+.about-image {
+    width: 45%;
+}
+
+.weuse {
+    width: 50%;
+    font-size: 30px;
+}
+
+.about-image img {
+    transform: skewY(-15deg);
+    height: 500px;
+}
+
+.gym-image-box {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.aboutus {
+    margin: 50px 0px;
+    text-align: center;
+    font-size: 50px;
+    padding: 25px 0;
+
+}
+
+.duis {
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 42px;
+}
+
+.about-more-btn {
+    padding: 15px 28px;
+    background-color: red;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.about-more-btn:hover {
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.line {
+    border-bottom: 1px solid #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.query-box {
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+    background-image: url(images/shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.workout {
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.chat {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(248, 246, 246);
+}
+
+.chat:hover {
+    background-color: blue;
+    color: #fff;
+    cursor: pointer
+}
+
+.inquery-box {
+    padding: 50px 0;
+}
+
+.our-service {
+    font-size: 50px;
+    text-align: center;
+}
+
+.service1 {
+    width: 350px;
+    border: 1px;
+    margin: 20px;
+    box-shadow: 8px 8px 16px rgb(17, 16, 16);
+    ;
+    border-radius: 5px;
+}
+
+.service1 img {
+    width: 100%;
+}
+
+.fitness {
+    font-size: 18px;
+    color: red;
+}
+
+.fitnes-description {
+    line-height: 1.5;
+    padding: 15px;
+}
+
+.cardo {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.join {
+    font-size: 18px;
+    color: red;
+}
+
+.price-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.all-service {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.service-photo {
+    position: relative;
+
+}
+
+.batch img {
+    width: 70px;
+    position: absolute;
+    left: 58%;
+
+}
+
+.footer-line {
+    width: 90%;
+    height: 100px;
+    border-bottom: 1px solid rgb(202, 196, 196);
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.name {
+    color: red;
+    font-weight: 600;
+}
